@@ -1,0 +1,74 @@
+<!-- Magic Notes -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Notes APP</title>
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Magic Notes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input id="searchTxt" class="form-control me-2 searchTxt" type="search" placeholder="Search Your Note Here"
+                        aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h1>Welcome To Magic Notes</h1><br>
+        <div class="Maincard my-3" style="width: 90%">
+            <div class="card-body">
+                <h5 class="card-title">Add a Note : -</h5>
+                <div class="form-floating">
+                    <div class="input-group my-3">
+                        <span class="input-group-text">Title</span>
+                        <input type="text" aria-label="First name" class="form-control" id="Title">
+                    </div>
+                    <textarea class="form-control" id="addTxt" style="height: 100px"></textarea>
+                </div>
+                <button class="btn btn-primary my-3" id="addbtn">ADD</button>
+
+            </div>
+        </div>
+        <div>
+            <h1 class="my-4">Your Notes</h1>
+            <div class="input-group my-2 mx-2" style="max-width: 40%;min-width: 280px;">
+                <span class="input-group-text">Search</span>
+                <input type="text" aria-label="First name" class="form-control searchTxt" placeholder="Search By Title or Context" id="searchTitle">
+            </div>
+            
+        </div>
+
+        <div class="row continer-fluid" id="notes"></div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
