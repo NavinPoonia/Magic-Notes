@@ -1,6 +1,8 @@
 # Magic-Notes
 Creating A Note Taking App Using JavaScript 
 
+Link - https://navinpoonia.github.io/Magic%20Notes/
+
 1 - To Create A Note, Give A Title And Content Then Click On The 'ADD' Button.
 
 2 - Note Will Be Created With The Date Mentioned On The Note It Was Created On.
