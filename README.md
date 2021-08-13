@@ -7,5 +7,5 @@ Creating A Note Taking App Using JavaScript
 
 3 - Notes Will Be Saved In LocalStorage Using JavaScript So That When Page Is Reloaded Notes Which Were Created Are Saved.
 
-4 - User Can Search A Note By Title, Content Key-Word Or By Date.
+4 - User Can Search A Note By Title, Content Key-Word And Also By Date.
 
