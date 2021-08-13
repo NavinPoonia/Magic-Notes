@@ -1,5 +1,5 @@
 # Magic-Notes
-Creating A Note Taking App Using JavaScript 
+Creating A Note Taking App Using JavaScript (Responsive)
 
 Link - https://navinpoonia.github.io/Magic%20Notes/
 
